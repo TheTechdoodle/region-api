@@ -6,7 +6,7 @@
 
     <groupId>com.darkender.plugins</groupId>
     <artifactId>regionapi</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>RegionAPI</name>
 
     <properties>
@@ -73,7 +73,6 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.2.0</version>
                 <configuration>
-                    <aggregate>true</aggregate>
                     <show>public</show>
                     <nohelp>true</nohelp>
                     <header>${project.name} v${project.version}</header>
